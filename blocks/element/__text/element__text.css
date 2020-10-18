@@ -1,0 +1,6 @@
+.element__text {
+    display: flex;
+    justify-content: space-between;
+    width: 276px;
+    height: 50px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="pages/index.css" />
+        <title>Around The U.S.</title>
+    </head>
+    <body class="page">
+        <div class="page__container">
+
+            <header class="header">
+                <img src="./images/logo.svg" alt="Around The U.S logo" class="header__logo"/>
+            </header>
+
+            <main>
+
+                <section class="profile">
+                    <img src="./images/profile.jpg" alt="profile photo" class="profile__avatar"/>
+                    <div class="profile__info">
+                        <div class="profile__info-edit">
+                            <h1 class="profile__title">Jacques Cousteau</h1>
+                            <button type="button" class="profile__edit"></button>
+                        </div>
+                        <p class="profile__subtitle">Explorer</p>
+                    </div>
+                    <button type="button" class="profile__add"></button>
+                </section>
+
+                <section class="elements">
+                    <ul class="elements__table">
+                    </ul>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <p class="footer__copyright">
+                    © 2020 Around The U.S.
+                </p>
+            </footer>
+
+            <!-- modal for the edit profile function -->
+            <div class="modal modal__type_edit-profile">
+                <div class="modal__container">
+                    <button type="button" class="modal__close modal__close_type_profile"></button>
+                    <form name="form" method="post" class="modal__form modal__form_type_profile">
+                        <h3 class="modal__title">Edit profile</h3>
+                        <input type="text" name="Name" class="modal__input modal__input_type_form-name" placeholder="Name" />
+                        <input type="text" name="About" class="modal__input modal__input_type_form-job" placeholder="About me"/>
+                        <button type="submit" class="modal__submit">Save</button>
+                    </form>
+                </div>    
+            </div>
+
+            <!-- modal for the add image profile -->
+            <div class="modal modal__type_add-image">
+                <div class="modal__container">
+                    <button type="button" class="modal__close modal__close_type_image"></button>
+                    <form name="form" method="post" class="modal__form modal__form_type_image">
+                        <h3 class="modal__title">New Place</h3>
+                        <input type="text" name="Title" class="modal__input modal__input_type_title" placeholder="Title" />
+                        <input type="text" name="Image" class="modal__input modal__input_type_image" placeholder="Image link"/>
+                        <button type="submit" class="modal__submit">Create</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+
+        <!-- modal for picture popup -->
+        <div class="modal modal__type_image-popup">
+        </div>
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>

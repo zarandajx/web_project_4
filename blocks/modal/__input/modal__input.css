@@ -1,0 +1,21 @@
+.modal__input {
+  border: none;
+  font-size: 14px;
+  max-width: 358px;
+  margin-left: 36px;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  margin-bottom: 29.74px;
+  height: 27.26px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 17px;
+  color: #000000;
+}
+
+@media screen and (max-width: 900px) {
+  .modal__input {
+    margin-left: 22px;
+    max-width: 220px;
+  }
+}

@@ -1,0 +1,9 @@
+@import url(./_type/_popup/modal__container_type_popup.css);
+
+.modal__container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 2px black;
+  display: flex;
+  position: relative;
+}

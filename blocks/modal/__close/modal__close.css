@@ -1,0 +1,25 @@
+.modal__close {
+  background-image: url("../../../images/close.png");
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  width: 40.7px;
+  height: 40.7px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  border-radius: 50%;
+}
+
+.modal__close:hover {
+  filter: opacity(60%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .modal__close {
+      width: 26px;
+      height: 26px;
+      right: -2px;
+  }
+}

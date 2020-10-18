@@ -1,0 +1,28 @@
+.modal__submit {
+  width: 358px;
+  height: 50.15px;
+  margin: 18.26px 36px 36.51px 36px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+}
+
+.modal__submit:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 900px) {
+    .modal__submit {
+        width: 230px;
+        padding: 14px 82px;
+        /* margin: 0; */
+        /* margin-left: 22px; */
+        /* margin-bottom: 22px; */
+        margin: 10px 22px 22px;
+        font-size: 14px;
+    }
+}
